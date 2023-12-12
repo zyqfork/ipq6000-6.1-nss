@@ -30,6 +30,7 @@ endef
 ALLWIFIBOARDS:= \
 	buffalo_wxr-5950ax12 \
 	compex_wpq873 \
+  cmiot_ax18 \
 	dynalink_dl-wrx36 \
 	edgecore_eap102 \
 	edimax_cax1800 \
@@ -49,6 +50,7 @@ ALLWIFIBOARDS:= \
 	xiaomi_ax1800 \
 	yyets_le1 \
 	yuncore_ax880 \
+  zn_n2 \
 	zte_mf289f \
 	zte_mf287 \
 	zte_mf287plus \
@@ -144,6 +146,7 @@ endef
 
 $(eval $(call generate-ipq-wifi-package,buffalo_wxr-5950ax12,Buffalo WXR-5950AX12))
 $(eval $(call generate-ipq-wifi-package,compex_wpq873,Compex WPQ-873))
+$(eval $(call generate-ipq-wifi-package,cmiot_ax18,CMIOT AX18))
 $(eval $(call generate-ipq-wifi-package,dynalink_dl-wrx36,Dynalink DL-WRX36))
 $(eval $(call generate-ipq-wifi-package,edgecore_eap102,Edgecore EAP102))
 $(eval $(call generate-ipq-wifi-package,edimax_cax1800,Edimax CAX1800))
@@ -163,6 +166,7 @@ $(eval $(call generate-ipq-wifi-package,xiaomi_ax9000,Xiaomi AX9000))
 $(eval $(call generate-ipq-wifi-package,xiaomi_ax1800,Xiaomi AX1800))
 $(eval $(call generate-ipq-wifi-package,yyets_le1,YYeTs LE1))
 $(eval $(call generate-ipq-wifi-package,yuncore_ax880,Yuncore AX880))
+$(eval $(call generate-ipq-wifi-package,zn_n2,ZN M2))
 $(eval $(call generate-ipq-wifi-package,zte_mf289f,ZTE MF289F))
 $(eval $(call generate-ipq-wifi-package,zte_mf287,ZTE MF287))
 $(eval $(call generate-ipq-wifi-package,zte_mf287plus,ZTE MF287Plus))

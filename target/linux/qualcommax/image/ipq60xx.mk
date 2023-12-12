@@ -64,3 +64,29 @@ define Device/xiaomi_ax1800
 	DEVICE_PACKAGES := ipq-wifi-xiaomi_ax1800
 endef
 TARGET_DEVICES += xiaomi_ax1800
+
+define Device/zn_m2
+	$(call Device/FitImage)
+	$(call Device/UbiFit)
+	DEVICE_VENDOR := ZN
+	DEVICE_MODEL := M2
+	BLOCKSIZE := 128k
+	PAGESIZE := 2048
+	DEVICE_DTS_CONFIG := config@cp03-c1
+	SOC := ipq6018
+	DEVICE_PACKAGES := ipq-wifi-zn_m2
+endef
+TARGET_DEVICES += zn_m2
+
+define Device/cmiot_ax18
+	$(call Device/FitImage)
+	$(call Device/UbiFit)
+	DEVICE_VENDOR := CMIOT
+	DEVICE_MODEL := AX18
+	BLOCKSIZE := 128k
+	PAGESIZE := 2048
+	DEVICE_DTS_CONFIG := config@cp03-c1
+	SOC := ipq6018
+	DEVICE_PACKAGES := ipq-wifi-cmiot_ax18
+endef
+TARGET_DEVICES += cmiot_ax18
