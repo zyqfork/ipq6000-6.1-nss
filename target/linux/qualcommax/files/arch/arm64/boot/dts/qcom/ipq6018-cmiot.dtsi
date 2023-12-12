@@ -97,17 +97,17 @@
 
 	qca8075_0: ethernet-phy@0 {
 		compatible = "ethernet-phy-ieee802.3-c22";
-		reg = <4>; 0
+		reg = <0>;
 	};
 
 	qca8075_1: ethernet-phy@1 {
 		compatible = "ethernet-phy-ieee802.3-c22";
-		reg = <0>; 1
+		reg = <1>;
 	};
 
 	qca8075_2: ethernet-phy@2 {
 		compatible = "ethernet-phy-ieee802.3-c22";
-		reg = <1>; 2
+		reg = <2>;
 	};
 
 	qca8075_3: ethernet-phy@3 {
