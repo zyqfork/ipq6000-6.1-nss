@@ -30,7 +30,7 @@ endef
 ALLWIFIBOARDS:= \
 	buffalo_wxr-5950ax12 \
 	compex_wpq873 \
-  cmiot_ax18 \
+	cmiot_ax18 \
 	dynalink_dl-wrx36 \
 	edgecore_eap102 \
 	edimax_cax1800 \
@@ -50,7 +50,7 @@ ALLWIFIBOARDS:= \
 	xiaomi_ax1800 \
 	yyets_le1 \
 	yuncore_ax880 \
-  zn_n2 \
+	zn_n2 \
 	zte_mf289f \
 	zte_mf287 \
 	zte_mf287plus \
