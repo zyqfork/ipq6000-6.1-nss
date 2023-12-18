@@ -12,3 +12,15 @@
 &wifi {
 	qcom,ath11k-calibration-variant = "Redmi-AX5";
 };
+
+&qusb_phy_0 {
+	status = "ok";
+};
+
+&ssphy_0 {
+	status = "ok";
+};
+
+&usb3 {
+	status = "ok";
+};
